@@ -6,6 +6,7 @@ function App() {
   const [inputList, setinputList] = useState("")
   const [item, setitem] = useState([])
 
+  
   const itemEvent = (event) => {
     setinputList(event.target.value)
   }
