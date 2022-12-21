@@ -30,7 +30,7 @@ function App() {
           <h1>ToDo App</h1>
           <br />
           <input type="text" placeholder='Add an item' onChange={itemEvent} />
-          <button onClick={listOfItems}>+</button>
+          <button onClick={listOfItems}> + </button>
 
           <ol>
             {/* <li>{inputList}</li> */}
